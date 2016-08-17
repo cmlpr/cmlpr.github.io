@@ -1,3 +1,21 @@
 name: CMLPR Corp
-markdown: kramdown
+
+markdown: rdiscount
+#markdown: kramdown
+
 permalink: /blog/:year/:month/:day/:title
+
+# For code highlighting
+highlighter: pygments
+
+# For MATH formulations
+kramdown:
+  input: GFM
+
+# SiteMaps
+gems:
+  - jekyll-sitemap
+
+# Search Engine Optimziation
+gems:
+  - jekyll-seo-tag
