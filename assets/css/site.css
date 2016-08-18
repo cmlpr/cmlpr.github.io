@@ -1,0 +1,32 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color:#747704;
+    font-weight: 300;
+}
+
+.text-muted {
+    color:#BCBBBB;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 60px;
+}
+
+.title-logo {
+    margin-top: 20px;
+}
+
+ /* Making sure that the images(and others) don't overflow their containers */
+img, embed, object, video {
+    max-width: 100%;
+}
+
+ /* Making sure that tap-items (mobile devices) have minimum 48px margin for thumb clicking*/
+nav a, button {
+    min-width: 48px;
+    min-height: 48px;
+}
