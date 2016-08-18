@@ -19,3 +19,9 @@ gems:
 # Search Engine Optimziation
 gems:
   - jekyll-seo-tag
+
+
+# Sass folder, to compress the imported Bootstrap files
+sass:
+    sass_dir: _sass
+    style: :compressed
