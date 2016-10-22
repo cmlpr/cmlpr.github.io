@@ -1,4 +1,11 @@
 name: CMLPR Corp
+title: CMLPR Corp
+description: CMLPR
+
+tagline: About Everything
+author :
+  name : CMLPR
+  email : cmlpr@outlook.com
 
 markdown: rdiscount
 #markdown: kramdown
@@ -13,13 +20,12 @@ kramdown:
   input: GFM
 
 # SiteMaps
+# Search Engine Optimziation
+# RSS feed
 gems:
   - jekyll-sitemap
-
-# Search Engine Optimziation
-gems:
   - jekyll-seo-tag
-
+  - jekyll-feed
 
 # Sass folder, to compress the imported Bootstrap files
 sass:

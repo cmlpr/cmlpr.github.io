@@ -2,6 +2,8 @@
 layout: post
 title: "Building my blog with Jekyll on Github by CMLPR"
 date: 2015-11-15
+mathjx: true
+hlighters: htmlcode
 ---
 
 This is my first post in my Github based blog. I have no blogging experience but I'll do my best and share things about I like as much as I can.
