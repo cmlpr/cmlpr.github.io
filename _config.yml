@@ -7,8 +7,8 @@ author :
   name : CMLPR
   email : cmlpr@outlook.com
 
-markdown: rdiscount
-#markdown: kramdown
+#markdown: rdiscount
+markdown: kramdown
 
 permalink: /blog/:year/:month/:day/:title
 
