@@ -13,7 +13,8 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
 # For code highlighting
-highlighter: pygments
+#highlighter: pygments
+highlighter: rouge
 
 # For MATH formulations
 kramdown:
