@@ -328,6 +328,10 @@ a:hover {
  *
  */
 
+.label {
+    line-height: 200%;
+}
+
 .label-primary {
   background-color: #D1E0E1!important;
 }
