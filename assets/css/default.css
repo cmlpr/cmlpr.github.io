@@ -201,6 +201,142 @@ a:hover {
     font-size: 20px;
 }
 
+
+/*--------------------------------------------------------------------*/
+
+
+/*
+ *
+ * Blog List - cards
+ *
+ */
+
+.posts_section {
+  flex-grow: 1;
+  clear: both;
+  padding: 0;
+  text-align: left;
+}
+
+.posts_section > h2 {
+  margin: 0;
+}
+
+.posts_section > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.posts_section_title {
+    border-bottom: 1px solid #E0E0E0;
+    font-size: 24px;
+}
+
+.post {
+  clear: both;
+  margin: 24px 0;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+
+}
+
+.post:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.post__title {
+  font-weight: 500;
+  order: 0;
+  width: 100%;
+  margin: 10px 5px 10px 5px;
+}
+
+.post__title a {
+  text-decoration: none;
+  color: #666;
+  padding: inherit;
+}
+
+.post__title a:hover,
+.post__title a:active {
+  text-decoration: underline;
+}
+
+.post__thumbnail {
+  float: left;
+  order: 1;
+  width: 30%;
+  padding: 0 0 0.5em 0.5em;
+}
+
+.post__thumbnail > img {
+  width: 100%;
+}
+
+.post__description {
+  order: 2;
+  width: 70%;
+  margin: 0;
+  padding: 0 0.5em 0.5em 1em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+/*--------------------------------------------------------------------*/
+
+
+/*
+ *
+ * Each post page - body 
+ *
+ */
+
+.post_body {
+  flex-grow: 1;
+  clear: both;
+  padding: 0;
+  text-align: left;
+}
+
+/*--------------------------------------------------------------------*/
+
+
+/*
+ *
+ * Error - 404
+ *
+ */
+
+.error {
+  flex-grow: 1;
+  clear: both;
+  padding: 0;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------------*/
+
+
+/*
+ *
+ * Labels
+ *
+ */
+
+.label-primary {
+  background-color: #D1E0E1!important;
+}
+.label-primary[href]:hover,
+.label-primary[href]:focus {
+  background-color: #7f8c8d!important;
+  text-decoration: none;
+}
+
 /*--------------------------------------------------------------------*/
 
  /*
@@ -212,6 +348,7 @@ a:hover {
 .footer {
     width: 100%;
     border-top: 1px solid #E0E0E0;
+    background-color: #fff;
 }
 
 .footer__inner {
@@ -252,7 +389,7 @@ a:hover {
 
 /*
 *
-* Screen Size Impact
+* Responsive design section
 *
 */
 
@@ -261,11 +398,31 @@ a:hover {
     flex-wrap: wrap;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 200px) {
     .footer {
         position: fixed;
         bottom: 0;
     }
+}
+
+@media screen and (max-width: 500px) {
+
+    .posts_section_title {
+        font-size: 20px;
+    }
+
+    .post__thumbnail {
+        width: 60%;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.5em 0 0.5em 0;
+    }
+    .post__description {
+        width: 100%;
+        padding: 0.5em 0.5em 1em 0.5em;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -300,6 +457,11 @@ a:hover {
         padding: 10px;
         border-bottom: 1px solid #580000;
     }
+
+    .posts_section_title {
+        font-size: 24px;
+    }
+
 }
 
 @media (min-width: 640px) {

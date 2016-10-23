@@ -4,6 +4,13 @@ title: "Building my blog with Jekyll on Github by CMLPR"
 date: 2015-11-15
 mathjx: true
 hlighters: htmlcode
+image: hello.jpg
+imagealt: "hello github"
+description: ""
+category: website
+tags: cmlpr bootstrap jekyll disqus github python pygments css mathjax
+published: true
+comments: true
 ---
 
 This is my first post in my Github based blog. I have no blogging experience but I'll do my best and share things about I like as much as I can.
@@ -41,7 +48,7 @@ And add a link to the css file in the `_includes/themes/bootsrap-3/defaults.html
 
 An example highlighted code snippet looks like this:
 
-{% highlight HTML linenos %}
+```html
 <!DOCTYPE html>
 <html>
     <body>
@@ -51,7 +58,7 @@ An example highlighted code snippet looks like this:
         <a href="url">link text</a>
 </body>
 </html>
-{% endhighlight %}
+```
 
 Another useful functionality is the ability to use math blocks in posts. Activating is exteremely easiy.
 

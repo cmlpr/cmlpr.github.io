@@ -1,59 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content ="IE=edge">
-    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-    <link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/site.css"> <!-- Put your styles second so that it is not overwritten by BS.scss -->
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" media="screen and (max-width:500px)" href="/assets/css/less500.css">
-    <script type="text/javascript" src="/assets/js/jquery-3.1.0.min.js"></script>
-    <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
-    {% feed_meta %}
-    {% seo %}
-</head>
+
+    {% include default_head.html %}
+
     <body>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/second">Second</a></li>
-                <li><a href="/blog">Blog</a></li>
-            </ul>
-        </nav>
-        <div class="container">
+        
+        <div class="site-wrapper">
+            <div class="site-wrapper-inner">
+                <div class="container">
 
-            {{ content}}
+{% include default_header.html %}
 
-        </div><!-- /.container -->
+{% include navigation.html %}
 
-        <footer>
-            <ul>
-                <li><a href="mailto:cmlpr@cmlpr.com">email</a></li>
-                <li><a href="https://github.com/cmlpr">github.com/cmlpr</a></li>
-            </ul>
-        </footer>
+{{ content}}
+                    
+{% include default_footer.html %}
 
-        <!-- Modal -->
-        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel">Focus </h4>
-                    </div>
-                    <div class="modal-body">
-                        <img class="img-responsive" src="http://placekitten.com/550/300">
-                        Testing this modal.
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
                 </div>
             </div>
-        </div>
+        </div><!-- /.site-wrapper -->
+
+{% include drawer_script.html %}
 
     </body>
+
 </html>

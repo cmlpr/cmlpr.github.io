@@ -1,30 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% include post_head.html %}
+    {% include post_head.html %}
 
     <body>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/second">Second</a></li>
-                <li><a href="/blog">Blog</a></li>
-            </ul>
-        </nav>
         
-        <div class="container">
+        <div class="site-wrapper">
+            <div class="site-wrapper-inner">
+                <div class="container">
 
-            <h1>{{ page.title }}</h1>
-            <p class="meta">{{ page.date | date_to_string }}</p>
+{% include default_header.html %}
 
-            <div class="post">
-              {{ content }}
+{% include navigation.html %}
+
+            <div class="inner cover">
+                <div class="post_body">
+                    <h3>{{ page.title }}</h3>
+                    <br>
+                    <span class="glyphicon glyphicon-calendar"></span> <span>{{ page.date | date_to_string }} </span> &nbsp|&nbsp 
+                    <span class="glyphicon glyphicon-tags"></span> &nbsp Tags : &nbsp
+                            {% for tag in page.tags %} <a href="/blog/tag/#{{ tag | slugify }}" rel="tooltip" title="View posts tagged with &quot;{{ tag }}&quot;">
+                            <span class="label label-primary">{{ tag }}</span></a>  
+                                {% if forloop.last != true %} 
+                                {% endif %} 
+                            {% endfor %}
+                    <br><br>
+                    {{ content }}
+                    <p class="lead"> <br> <br> <br> </p>
+                </div>
             </div>
+                    
+{% include default_footer.html %}
 
-        </div><!-- /.container -->
+                </div>
+            </div>
+        </div><!-- /.site-wrapper -->
 
-    {% include default_footer.html %}
+{% include drawer_script.html %}
 
     </body>
 

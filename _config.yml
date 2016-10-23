@@ -7,13 +7,13 @@ author :
   name : CMLPR
   email : cmlpr@outlook.com
 
-#markdown: rdiscount
+#markdown: rdiscount # not supported by github
 markdown: kramdown
 
 permalink: /blog/:year/:month/:day/:title
 
 # For code highlighting
-#highlighter: pygments
+#highlighter: pygments # not supported by github
 highlighter: rouge
 
 # For MATH formulations
@@ -32,3 +32,16 @@ gems:
 sass:
     sass_dir: _sass
     style: :compressed
+
+# Post excerpt
+excerpt_separator: <!--more-->
+
+
+# Pagination
+# Maximum number of posts per page
+# If a site has 12 posts and specifies paginate: 5, 
+# Jekyll will write blog/index.html with the first 5 posts, 
+# blog/page2/index.html with the next 5 posts and 
+# blog/page3/index.html with the last 2 posts into the destination directory.
+paginate: 5
+paginate_path: "/blog/page:num/"
