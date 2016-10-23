@@ -348,44 +348,66 @@ a:hover {
 
 /*
  *
- * Tags.html
+ * Tags and Categories Pages - TC (TagsCategories)
  *
  */
 
-.tags_content {
+/* This one is in the /blog/index.html as buttons */
+.tc_show {
+  clear: both;
+  width: 100%; 
+  padding: 20px 0px;
+}
+
+.tc_show_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tc_show_list li {
+  padding-right: 25px; 
+}
+
+.tc_show_list.inline li {
+  float: left; 
+}
+
+.tc_content {
   flex-grow: 1;
   clear: both;
   padding: 0;
   text-align: left;
 }
 
-.tags_content_title {
+.tc_content_title {
     border-bottom: 1px solid #E0E0E0;
     font-size: 24px;
 }
 
-.tag_label_section {
+.tc_label_section {
 
 }
 
-.tag_label {
+.tc_label {
     list-style: none;
     margin: 0;
     overflow: hidden;
 }
 
-.tag_label li {
+.tc_label li {
   line-height: 25px; 
 }
 
-.tag_label li i {
+.tc_label li i {
   opacity: 0.9; 
 }
 
-.tag_label.inline li {
-  float: left; }
+.tc_label.inline li {
+  float: left; 
+}
 
-.tag_label a {
+.tc_label a {
   padding: 3px 6px;
   margin: 2px;
   background: #D5F5E3;
@@ -395,42 +417,42 @@ a:hover {
   border: 1px dashed #cccccc;
 }
 
-.tag_label a span {
+.tc_label a span {
   vertical-align: super;
   font-size: 0.8em; 
 }
 
-.tag_label a:hover {
+.tc_label a:hover {
   background-color: #e5e5e5; 
 }
 
-.tag_label a.active {
+.tc_label a.active {
   background: #FBEEE6;
   border: 1px solid #EBF5FB;
   color: #555FFF; 
 }
 
-.tag_posts_section {
-  padding: 0 20px;
+.tc_posts_section {
+  padding: 0 5px;
 }
 
-.tag_posts {
+.tc_posts {
   list-style: none;
 }
 
-.tag_posts_section h2 {
+.tc_posts_section h2 {
     font-size: 24px;
 }
 
-.tag_posts li {
+.tc_posts li {
   font-size: 16px;
 }
 
-.tag_posts li a {
+.tc_posts li a {
   color: #729B9E;
 }
 
-.tag_posts a span {
+.tc_posts a span {
   font-size: 12px;
   font-size: 0.8em; 
   color: #F6DDCC;
@@ -506,7 +528,7 @@ a:hover {
 
 @media screen and (max-width: 500px) {
 
-    .posts_section_title {
+    .posts_section_title, tc_content_title {
         font-size: 20px;
     }
 

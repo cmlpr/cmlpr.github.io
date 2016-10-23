@@ -46,3 +46,6 @@ excerpt_separator: <!--more-->
 # blog/page3/index.html with the last 2 posts into the destination directory.
 paginate: 5
 paginate_path: "/blog/page:num/"
+
+categories_path : /blog/categories.html
+tags_path : /blog/tags.html
