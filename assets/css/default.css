@@ -270,6 +270,8 @@ a:hover {
   order: 1;
   width: 30%;
   padding: 0 0 0.5em 0.5em;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .post__thumbnail > img {
@@ -329,7 +331,7 @@ a:hover {
  */
 
 .label {
-    line-height: 300%;
+    line-height: 250%;
 }
 
 .label-primary {
@@ -339,6 +341,99 @@ a:hover {
 .label-primary[href]:focus {
   background-color: #7f8c8d!important;
   text-decoration: none;
+}
+
+/*--------------------------------------------------------------------*/
+
+
+/*
+ *
+ * Tags.html
+ *
+ */
+
+.tags_content {
+  flex-grow: 1;
+  clear: both;
+  padding: 0;
+  text-align: left;
+}
+
+.tags_content_title {
+    border-bottom: 1px solid #E0E0E0;
+    font-size: 24px;
+}
+
+.tag_label_section {
+
+}
+
+.tag_label {
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+.tag_label li {
+  line-height: 25px; 
+}
+
+.tag_label li i {
+  opacity: 0.9; 
+}
+
+.tag_label.inline li {
+  float: left; }
+
+.tag_label a {
+  padding: 3px 6px;
+  margin: 2px;
+  background: #D5F5E3;
+  color: #555;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px dashed #cccccc;
+}
+
+.tag_label a span {
+  vertical-align: super;
+  font-size: 0.8em; 
+}
+
+.tag_label a:hover {
+  background-color: #e5e5e5; 
+}
+
+.tag_label a.active {
+  background: #FBEEE6;
+  border: 1px solid #EBF5FB;
+  color: #555FFF; 
+}
+
+.tag_posts_section {
+  padding: 0 20px;
+}
+
+.tag_posts {
+  list-style: none;
+}
+
+.tag_posts_section h2 {
+    font-size: 24px;
+}
+
+.tag_posts li {
+  font-size: 16px;
+}
+
+.tag_posts li a {
+  color: #729B9E;
+}
+
+.tag_posts a span {
+  font-size: 12px;
+  font-size: 0.8em; 
+  color: #F6DDCC;
 }
 
 /*--------------------------------------------------------------------*/
@@ -421,6 +516,7 @@ a:hover {
         margin-left: auto;
         margin-right: auto;
         padding: 0.5em 0 0.5em 0;
+        vertical-align: middle;
     }
     .post__description {
         width: 100%;

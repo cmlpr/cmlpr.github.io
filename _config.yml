@@ -27,6 +27,7 @@ gems:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-sitemap
 
 # Sass folder, to compress the imported Bootstrap files
 sass:
