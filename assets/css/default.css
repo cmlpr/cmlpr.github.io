@@ -460,6 +460,55 @@ a:hover {
 
 /*--------------------------------------------------------------------*/
 
+
+/*
+ *
+ * Publications Section
+ *
+ */
+
+.pub_content {
+  flex-grow: 1;
+  clear: both;
+  padding: 0;
+  text-align: left;
+}
+
+.pub_content a {
+   color : #008ec5;
+}
+
+.pub_author {
+    color : #7f0000;
+}
+
+.pub_card {
+    margin: 0px 0px 20px 0px;
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.pub_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.pub_container {
+    padding: 2px 16px;
+    text-align: left;
+    line-height: 16px;
+}
+
+.pub_img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+/*--------------------------------------------------------------------*/
+
  /*
  *
  * Footer Section
@@ -528,7 +577,7 @@ a:hover {
 
 @media screen and (max-width: 500px) {
 
-    .posts_section_title, tc_content_title {
+    .posts_section_title, .tc_content_title, .pub_content_title {
         font-size: 20px;
     }
 

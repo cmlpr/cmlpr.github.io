@@ -1,0 +1,98 @@
+---
+layout: page
+title: Publications by Cem Alper Ozen
+permalink: /publications.html
+scripts: publication_modal
+---
+
+            <div class="inner cover">
+                <div class="pub_content">
+
+                    <div class="row">
+                        <div class="col-sm-12 text-muted text-uppercase">
+                            <h2 class="pub_content_title">List of Publications</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <hr>
+                        </div>
+                    </div>  
+
+
+
+                    {% assign pub_list = site.data.publications.pub_list | sort: 'year' | reverse %} 
+
+                    {% for pub in pub_list %}
+
+                        {% assign iter = forloop.index | plus:'1' | modulo : 2%} 
+
+                        {% if forloop.first %}
+                            <div class="row text-center">
+                        {% else %}
+                            {% if iter  == 0 %}
+                            </div>
+
+                            <div class="row text-center">
+                            
+                            {% else %}
+
+                            {% endif %}
+                        
+                        {% endif %}
+
+                                <div class="col-sm-6">
+                                    <div class="pub_card">
+                                        <img src="{{ pub.image }}" alt="Avatar" style="width:100%" class="img-responsive pub_img" data-toggle="modal" data-target="#articleNo{{ pub.order }}">
+                                        <div class="pub_container">
+                                            <a href="{{ pub.link }}"><h4><b>{{ pub.name }}</b></h4></a>
+                                            <p> <b> Authors:&nbsp;&nbsp;</b>
+                                                {% for author in pub.authors %}
+
+                                                    {% if author == 'Ozen, Cem Alper' %}
+                                                        <b class="pub_author">{{ author }}</b>
+                                                    {% else %}
+                                                        {{ author }}
+                                                    {% endif %}
+
+                                                    {% if forloop.last %}
+
+                                                    {% else %}
+                                                        ;
+                                                    {% endif %}
+
+                                                {% endfor %}
+                                            </p>
+                                            <p> <b> Date:&nbsp;&nbsp;</b> {{ pub.year }} </p>
+                                            <p> <b> Publisher:&nbsp;&nbsp;</b> {{ pub.publisher }} </p>
+                                            <p> <b> Cited by:&nbsp;&nbsp;</b> {{ pub.cited_by }} </p>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                        {% if forloop.last %}
+
+                            {% if iter  == 0 %}
+
+                            <div class="col-sm-6">
+                                
+                            </div>
+                            
+                            {% endif %}
+
+                            </div>
+                        
+                        {% endif %}
+
+                        {% assign iter = nil %} 
+
+                    {% endfor %}
+                    
+                    {% assign pub_list = nil %} 
+
+
+                    <br><br><br><br> 
+
+                </div>
+            </div>

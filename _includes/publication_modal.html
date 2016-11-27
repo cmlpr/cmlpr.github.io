@@ -1,0 +1,27 @@
+{% assign pub_list = site.data.publications.pub_list %} 
+
+{% for pub in pub_list %}
+
+    <!-- Modal -->
+    <div class="modal fade" id="articleNo{{ pub.order }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">{{ pub.name }}</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="{{ pub.image }}">
+                    <br>
+                    <p> {{ pub.abstract }}
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endfor %}
+                    
+{% assign pub_list = nil %} 
+

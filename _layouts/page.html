@@ -23,6 +23,12 @@
 
 {% include drawer_script.html %}
 
+{% if page.scripts %}
+    {% for script in page.scripts %}
+        {% include {{ script | append:'.html' }} %}
+    {% endfor %}
+{% endif %}
+
     </body>
 
 </html>
