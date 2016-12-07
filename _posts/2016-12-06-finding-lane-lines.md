@@ -13,7 +13,7 @@ published: true
 comments: true
 ---
 
-Recenttly I started a new adventure by enrolling into Udacity SDCND program. This program is a great opportunity for people like me who wants to develope new skills. I just completed my first week and I have to admit that I am very impressed with the program in general. 
+Recenttly I started a new adventure by enrolling into Udacity SDCND program. This program is a great opportunity for people like me who wants to develop new skills. I just completed my first week and I have to admit that I am very impressed with the program in general. 
 
 <!--more-->
 
