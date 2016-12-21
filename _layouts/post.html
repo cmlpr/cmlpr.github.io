@@ -19,7 +19,7 @@
                     <br>
                     <span class="glyphicon glyphicon-calendar"></span> <span>{{ page.date | date_to_string }} </span> &nbsp|&nbsp 
                     <span class="glyphicon glyphicon-tags"></span> &nbsp Tags : &nbsp
-                            {% for tag in page.tags %} <a href="/blog/tag/#{{ tag | slugify }}" rel="tooltip" title="View posts tagged with &quot;{{ tag }}&quot;">
+                            {% for tag in page.tags %} <a href="/blog/tags.html#{{ tag | slugify }}" rel="tooltip" title="View posts tagged with &quot;{{ tag }}&quot;">
                             <span class="label label-primary">{{ tag }}</span></a>  
                                 {% if forloop.last != true %} 
                                 {% endif %} 
