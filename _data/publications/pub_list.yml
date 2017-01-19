@@ -1,5 +1,5 @@
 - order: 1
-  image: /images/CemAlperOzen_abms_2015.jpg
+  image: /images/publications/CemAlperOzen_abms_2015.jpg
   name: Agent Based Modeling of Uncertain Dynamic Markets with Contracts
   abstract: Agent based modeling technique is employed to simulate uncertain markets that have geographical limits due high distribution costs and have time-bound contracts. Suppliers and customers are modelled as agents and macro-economic conditions are modelled as environment in which the agents interact and follow their programmed decision-rules. In this presentation, we will present general features of these models and share example case studies to show their utility in understanding such markets.
   year: 2015
@@ -14,7 +14,7 @@
   link: https://informs.emeetingsonline.com/emeetings/formbuilder/clustersessiondtl.asp?csnno=24505&mmnno=272&ppnno=90903
 
 - order: 2
-  image: /images/BrossOzen_PiF_2013.jpg
+  image: /images/publications/BrossOzen_PiF_2013.jpg
   name: Flow structure on a rotating wing - Effect of steady incident flow
   abstract: The flow structure along a rotating wing in steady incident flow is compared to the structure on a rotating wing in quiescent fluid, in order to clarify the effect of advance ratio J (ratio of free-stream velocity to tip velocity of wing). Stereoscopic particle image velocimetry leads to patterns of vorticity, velocity, and Q-criterion (constant values of the second invariant of the velocity gradient tensor), as well as streamlines, which allow identification of critical points of the flow. The effective angle of attack is held constant over the range of J, and the wing rotates from rest to a large angle that corresponds to attainment of the asymptotic state of the flow structure. Prior to the onset of motion, the wing is at high angle of attack and the steady incident flow yields a fully stalled state along the wing. After the onset of rotation, the stalled region quickly gives rise to a stable leading edge vortex. Throughout the rotation maneuver, the development of the flow structure in the leading edge region is relatively insensitive to the value of J. In the trailing-edge region, however, the structure of the shed vorticity layer is strongly dependent on the value of J. Further insight into the effects of J is provided by three-dimensional patterns of spanwiseoriented vorticity, spanwise velocity, and Q-criterion.
   year: 2013
@@ -27,7 +27,7 @@
   link: http://scitation.aip.org/content/aip/journal/pof2/25/8/10.1063/1.4816632
 
 - order: 3
-  image: /images/OzenRocwell_AIAA_2013.jpg
+  image: /images/publications/OzenRocwell_AIAA_2013.jpg
   name: Flow Structure on a Rotating Wing - Effect of Wing Aspect Ratio and Shape
   abstract: The three–dimensional flow along rotating flat wings (plates) having a range of aspect ratio is visualized via a technique of stereoscopic particle image velocimetry (SPIV). Quan- titative interpretation of the flow structure involves volumetric images of velocity and vorticity components, vorticity flux and iso–Q. Emphasis is on the flow structure at a large angle of rotation, corresponding to the steady–state lift plateau. When the aspect ratio of the rectangular wing is sufficiently large, and at large radial distance from the center of rotation, degradation of the organized swirl of the leading-edge vortex occurs; the structure of the separated layers from the leading- and trailing- edges of the wing indicate that the effects of rotation are severely diminished. Simultaneously, there is loss of an identiable tip vortex; it is coherent only for the smallest aspect ratio. Despite these changes of patterns of the leading{edge and tip vortices, the structure of the root vortex remains the same with changes of aspect ratio. These major features of the vortex system also occur along the model wing of a fruit fly; their form is remarkably similar to the structure along the rectangular wing of the same aspect ratio.
   year: 2013
@@ -39,7 +39,7 @@
   link: http://arc.aiaa.org/doi/abs/10.2514/6.2013-676
 
 - order: 4
-  image: /images/Ozen_Rockwell_EiF_2011.jpg
+  image: /images/publications/Ozen_Rockwell_EiF_2011.jpg
   name: Flow Structure on a Flapping Wing - Quasi-Steady Limit
   abstract: The three-dimensional flow structure on a rotating wing is determined using stereoscopic particle image velocimetry. The wing is a rectangular flat plate with an aspect ratio AR = 2; the effective angle of attack is alpha_eff = 45° and the Reynolds number Re = 15,150. Emphasis is on comparison of the early stages of rotation with the late stage corresponding to the steady-state. The flow structure in the early stage involves a stable leading-edge vortex, and root, tip, and shed vortices. Along the span of the wing, the leading-edge vortex has pronounced concentrations of chordwise-oriented vorticity. These concentrations arise from the large-magnitude spanwise flow along the surface of the wing. At large angles of rotation, there is loss of the tip vortex, which is accompanied by loss of the chordwise-oriented vorticity due to eruption of the spanwise flow from the wing surface. In addition, patterns of downwash, spanwise velocity and spanwise vorticity flux are correlated with the local scale and degree of concentration of spanwise vorticity of the leading-edge vortex.
   year: 2012
@@ -51,7 +51,7 @@
   link: http://adsabs.harvard.edu/abs/2012APS..DFDR26008O
 
 - order: 5
-  image: /images/WoilfingerOzenRockwell_APS_2012.jpg
+  image: /images/publications/WoilfingerOzenRockwell_APS_2012.jpg
   name: Shallow Flow Past a Cavity - Self-Excited Oscillations due to Resonant Coupling
   abstract: A fully turbulent shallow flow past a cavity can give rise to highly coherent oscillations. Coupling between the instability of the separated shear layer along the cavity and a gravity standing wave mode within the cavity results in sharp spectral peaks of fluctuating pressure along the cavity wall; and substantial modification of the flow patterns along and within the cavity. Onset of the fully coupled, highly coherent oscillation of the shear layer-cavity system occurs as follows. As the inflow velocity along the cavity increases, the instability frequency of the separated shear layer approaches the frequency of the gravity standing wave mode. When these frequencies are coincident, the instability frequency locks-on to (remains the same as) the standing wave frequency, and highly ordered, time-dependent deflections of the free-surface occur. The peak amplitude of the unsteady pressure fluctuation occurs during this locked-on state. Moreover, quantitative imaging in the form of particle image velocimetry reveals large-scale vortex formation in the separated shear layer, which is associated with substantial changes of time- and phase-averaged flow patterns within the cavity. In turn, these features of the flow are associated with large increases of Reynolds stresses in the separated layer along the cavity.
   year: 2012
@@ -64,7 +64,7 @@
   link: http://adsabs.harvard.edu/abs/2012APS..DFDG10002W
 
 - order: 6
-  image: /images/BrossOzenRockwell_APS_2012.jpg
+  image: /images/publications/BrossOzenRockwell_APS_2012.jpg
   name: Quasi-Steady Limit of Flow Structure on Flapping Wing in Mean Flow
   abstract: A limiting case of flapping motion of a wing (low aspect ratio plate) in presence of incident steady flow is compared to a rotating wing in quiescent fluid, in order to clarify the effect of advance ratio J (ratio of free-stream velocity to tangential velocity of wing) on the structure of the leading-edge vortex. Stereoscopic particle image velocimetry leads to patterns of vorticity, velocity contours, and streamlines. For each value of J, the effective angle of attack is held constant at 45°, while the wing rotates from rest through 270deg. While at rest, the wing at high angle of attack in the presence of a steady free-stream gives rise to fully stalled flow. After the onset of rotation, the fully stalled region very quickly transforms to a stable leading edge vortex. Despite the change in advance ratio, the development of the flow structure around the wing throughout the rotation maneuver is similar, especially in the leading edge vortex region, as evidenced by patterns of streamline topology. To further demonstrate the effect of J, three-dimensional representations of of spanwise-oriented vorticity, spanwise velocity, and Q were constructed for hovering flight and forward flight.
   year: 2012
@@ -77,7 +77,7 @@
   link: http://adsabs.harvard.edu/abs/2012APS..DFDA17003B
 
 - order: 7
-  image: /images/WolfingerOzen_PiF_2012.jpg
+  image: /images/publications/WolfingerOzen_PiF_2012.jpg
   name: Shallow flow past a cavity - Coupling with a standing gravity wave
   abstract: Shallow, fully turbulent inflow past a cavity can give rise to highly organized oscillations, due to coupling between (i) the inherent instability of the separated turbulent layer along the opening of the cavity, and (ii) a gravity standing wave within the cavity. Techniques of particle image velocimetry and pressure measurements are employed to characterize the occurrence of the fully coupled state of the oscillation, relative to its uncoupled state. At a threshold value of inflow velocity, the frequency of the inherent instability of the turbulent separated shear layer locks-on to the frequency of the gravity standing wave. Moreover, the amplitude of the spectral peak of the pressure fluctuation, both at the impingement corner of the cavity and within the cavity, attains maximum values when lock-on occurs. Occurrence of a fully coupled or locked-on state substantially alters the time-averaged flow structure. Enhanced magnitudes of patterns of Reynolds stress and transverse velocity fluctuation occur along the cavity shear layer. Simultaneously, increased flow from within the cavity towards the separated shear layer occurs at a location immediately downstream of separation at the leading-edge of the cavity and, correspondingly, increased flow into the cavity occurs in the impingement region. The influence of the locked-on state is therefore global both the separated shear layer along the mouth of the cavity and the flow within the cavity are substantially altered. Phase-averaged representations of the flow structure show highly coherent, phase-locked patterns of vorticity along the cavity opening during the locked-on state. These vorticity patterns are associated with large, phase-locked excursions of the transverse component of velocity, within both the separated the shear layer and the cavity.
   year: 2012
@@ -90,7 +90,7 @@
   link: http://scitation.aip.org/content/aip/journal/pof2/24/10/10.1063/1.4761829
 
 - order: 8
-  image: /images/CemAlper_JFM_2012.jpg
+  image: /images/publications/CemAlper_JFM_2012.jpg
   name: Three-dimensional vortex structure on a rotating wing
   abstract: The three-dimensional structure of the leading-edge vortex on a rotating wing is addressed using a technique of particle image velocimetry. Organized patterns of chordwise-oriented vorticity, which exist within the vortex, arise from the spanwise flow along the surface of the wing, which can attain a velocity the same order as the velocity of the wing at its radius of gyration. These patterns are related to the strength (circulation) and coherence of the tip and root vortices. The associated distributions of spanwise-oriented vorticity along the leading-edge vortex are characterized in relation to the vorticity flux and downwash along the wing.
   year: 2012
@@ -102,7 +102,7 @@
   link: https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/three-dimensional-vortex-structure-on-a-rotating-wing/2730F36A8E2BE4D6D0CD5944B9DCB012
 
 - order: 9
-  image: /images/HarbigSheridanThompsonOzenRockwell_AIAA_2012.jpg
+  image: /images/publications/HarbigSheridanThompsonOzenRockwell_AIAA_2012.jpg
   name: Observations of Flow Structure Changes with Aspect Ratio for Rotating Insect Wing Planforms
   abstract: The effect of wing aspect ratio for flapping and rotating wings in insect-like flight regimes is not well understood. In this study the effect of aspect ratio on the vortex structures formed over altered fly wings has been investigated. A numerical model was employed to simulate the flow over these wings which were rotating at a constant angular velocity. It was found that increasing the wing aspect ratio resulted in the formation of a dual co-rotating vortex structure near the leading-edge of the wing and the strengthening of the spanwise velocity within the core of the downstream vortex. Increasing the wing aspect ratio also resulted in an unsteady region of flow being developed out near the wing tip in which vortex structures are shed from the wing. The formation of this region was found to be due to the interaction of the leading-edge vortex with the vorticity at the trailing edge and not due to leading-edge vortex shedding as the dual leading-edge vortex structure was foung to remain attached to the wing for all aspect ratios. This interaction did result in the reduction of the lift and drag coefficients for high aspect ratio. 
   year: 2012
@@ -117,7 +117,7 @@
   link: http://arc.aiaa.org/doi/abs/10.2514/6.2012-3282
 
 - order: 10
-  image: /images/CemAlperOzen_Dissertation_2012.jpg
+  image: /images/publications/CemAlperOzen_Dissertation_2012.jpg
   name: Unsteady flow structure on rotating and flapping wings
   abstract: The overall aim of this investigation is to characterize, the unsteady three-dimensional flow field generated by low aspect ratio rotating and flapping wings. An experimental system generates simple wing maneuvers in a water facility, and the flow structure is visualized via techniques of dye visualization, particle image velocimetry (PIV) and stereoscopic particle image velocimetry (SPIV).
   year: 2012
@@ -128,7 +128,7 @@
   link: http://gradworks.umi.com/35/42/3542677.html
 
 - order: 11
-  image: /images/CemAlperOzen_EiF2012.jpg
+  image: /images/publications/CemAlperOzen_EiF2012.jpg
   name: Flow structure on a rotating plate
   abstract: The flow structure on a rotating plate of low aspect ratio is characterized well after the onset of motion, such that transient effects are not significant, and only centripetal and Coriolis accelerations are present. Patterns of vorticity, velocity contours, and streamline topology are determined via quantitative imaging, in order to characterize the leading-edge vortex in relation to the overall flow structure. A stable leading-edge vortex is maintained over effective angles of attack from 30° to 75°, and at each angle of attack, its sectional structure at midspan is relatively insensitive to Reynolds number over the range from 3,600 to 14,500. The streamline topology, vorticity distribution, and circulation of the leading-edge vortex are determined as a function of angle of attack, and related to the velocity field oriented toward, and extending along, the leeward surface of the plate. The structure of the leading-edge vortex is classified into basic regimes along the span of the plate. Images of these regimes are complemented by patterns on crossflow planes, which indicate the influence of root and tip swirl, and spanwise flow along the leeward surface of the plate. Comparison with the equivalent of the purely translating plate, which does not induce the foregoing flow structure, further clarifies the effects of rotation.
   year: 2012
@@ -140,7 +140,7 @@
   link: http://link.springer.com/article/10.1007/s00348-011-1215-y
 
 - order: 12
-  image: /images/Cem_Alper_Ozen_Dissertation_2012.jpg
+  image: /images/publications/Cem_Alper_Ozen_Dissertation_2012.jpg
   name: Flow Structure on a Flapping Wing - Quasi-Steady Limit
   abstract: The flapping motion of an insect wing typically involves quasi-steady motion between extremes of unsteady motion. This investigation characterizes the flow structure for the quasi-steady limit via a rotating wing in the form of a thin rectangular plate having a low aspect ratio (AR =1). Particle Image Velocimetry (PIV) is employed, in order to gain insight into the effects of centripetal and Coriolis forces. Vorticity, velocity and streamline patterns are used to describe the overall flow structure with an emphasis on the leading-edge vortex. A stable leading-edge vortex is maintained over effective angles of attack from 30° to 75° and it is observed that at each angle of attack the flow structure remains relatively same over the Reynolds number range from 3,600 to 14,500. The dimensionless circulation of the leading edge vortex is found to be proportional to the effective angle of attack. Quasi-three-dimensional construction of the flow structure is used to identify the different regimes along the span of the wing which is then complemented by patterns on cross flow planes to demonstrate the influence of root and tip swirls on the spanwise flow. The rotating wing results are also compared with the equivalent of translating wing to further illustrate the effects of the rotation.
   year: 2011
@@ -152,7 +152,7 @@
   link: http://adsabs.harvard.edu/abs/2011APS..DFD.D6004O
 
 - order: 13
-  image: /images/Ozen_Rockwell_EiF_2010.jpg
+  image: /images/publications/Ozen_Rockwell_EiF_2010.jpg
   name: Vortical structures on a flapping wing
   abstract: A wing in the form of a rectangular flat plate is subjected to periodic flapping motion. Space–time imaging provides quantitative representations of the flow structure along the wing. Regions of spanwise flow exist along the wing surface; and depending on the location along the span, the flow is either toward or away from the tip of the wing. Onset and development of large-scale, streamwise-oriented vortical structures occur at locations inboard of the tip of the wing, and they can attain values of circulation of the order of one-half the circulation of the tip vortex. Time-shifted images indicate that these streamwise vortical structures persist over a major share of the wing chord. Space–time volume constructions define the form and duration of these structures, relative to the tip vortex.
   year: 2010
@@ -164,7 +164,7 @@
   link: http://link.springer.com/article/10.1007/s00348-010-0888-y
 
 - order: 14
-  image: /images/ozen&rockwell_flapping_2010.jpg
+  image: /images/publications/ozen&rockwell_flapping_2010.jpg
   name: Flow Structure on a Rotating Plate
   abstract: The flow structure on a rotating (revolving) plate with an aspect ratio of one is considered for the case of steady plate rotation, well after the transient startup. Techniques of particle image velocimetry lead to patterns of vorticity in relation to the sectional streamline topology. Values of Reynolds number, attained by variation of the angular velocity of the plate, range from approximately 3,000 to 13,000. The observed patterns are relatively insensitive to Reynolds number. A well-defined leading-edge vortex, which remains in a stable position, is attainable over a wide range of effective angle of attack, up to 75 degrees. These quasi-two-dimensional features are intimately related to three-dimensional characteristics of the flow, which involves spanwise-oriented patterns of velocity that vary along the chord of the plate, as well as distinctive patterns in the vicinity of the root and the tip of the rotating plate. The flow structure on the corresponding plate undergoing steady, purely translational motion is directly compared with that along the rotating plate. The flow pattern is fundamentally altered in absence of rotation, with dominance of large-scale stall.
   year: 2010
@@ -176,7 +176,7 @@
   link: http://meetings.aps.org/Meeting/DFD10/Session/LX.8
 
 - order: 15
-  image: /images/PolymorphicSystem_2010.jpg
+  image: /images/publications/PolymorphicSystem_2010.jpg
   name: Polymorphic robotic system controlled by an observing camera
   abstract: Polymorphic robotic systems, which are composed of many modular robots that act in coordination to achieve a goal defined on the system level, have been drawing attention of industrial and research communities since they bring additional flexibility in many applications. This paper introduces a new polymorphic robotic system, in which the detection and control of the modules are attained by a stationary observing camera. The modules do not have any sensory equipment for positioning or detecting each other. They are self-powered, geared with means of wireless communication and locking mechanisms, and are marked to enable the image processing algorithm detect the position and orientation of each of them in a two dimensional space. Since the system does not depend on the modules for positioning and commanding others, in a circumstance where one or more of the modules malfunction, the system will be able to continue operating with the rest of the modules. Moreover, to enhance the compatibility and robustness of the system under different illumination conditions, stationary reference markers are employed together with global positioning markers, and an adaptive filtering parameter decision methodology is enclosed. To the best of authors' knowledge, this is the first study to introduce a remote camera observer to control modules of a polymorphic robotic system.
   year: 2010
@@ -191,7 +191,7 @@
   link: http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=778364
 
 - order: 16
-  image: /images/SinusoidalLeadingEdge_2010.jpg
+  image: /images/publications/SinusoidalLeadingEdge_2010.jpg
   name: Control of vortical structures on a flapping wing via a sinusoidal leading-edge
   abstract: The flow structure generated by a flapping wing in the form of a plate is fundamentally altered if the leading-edge has a sinusoidal shape. It is possible to attenuate both the positive and negative spanwise flows along the plate surface, as well as the onset and development of large-scale concentrations of positive and negative streamwise vorticities at inboard locations. These alterations of the inboard flow structure have an insignificant influence on the structure of the tip vortex.
   year: 2010
