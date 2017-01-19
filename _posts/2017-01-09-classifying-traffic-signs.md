@@ -18,7 +18,7 @@ More explanation to follow...
 
 <!--more-->
 
-All files including the Ipython notebook solution and the results are located in this **[repository](https://github.com/cmlpr/CarND-LaneLines-P1)**.
+All files including the Ipython notebook solution and the results are located in this **[repository](https://github.com/cmlpr/CarND-Traffic-Sign-Classifier-Project)**.
 
 ## Helper Functions
 ***
