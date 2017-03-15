@@ -518,7 +518,9 @@ white_clip = clip1.fl_image(process_image)  # NOTE: this function expects color 
 white_clip.write_videofile(white_output, audio=False)
 ```
 
+<div class="post_videoWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2rNP54J0KSA" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ```python
 # Initialize the prev_line to empty list 
@@ -529,7 +531,9 @@ yellow_clip = clip2.fl_image(process_image)
 yellow_clip.write_videofile(yellow_output, audio=False)
 ```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZIf9_sEQPMg" frameborder="0" allowfullscreen></iframe>
+<div class="post_videoWrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZIf9_sEQPMg" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Challenge Video
 ***
@@ -546,8 +550,9 @@ clip2 = VideoFileClip('challenge.mp4')
 challenge_clip = clip2.fl_image(process_image, apply_to=[])
 challenge_clip.write_videofile(challenge_output, audio=False)
 ```
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D5lWLi_lBdA" frameborder="0" allowfullscreen></iframe>
+<div class="post_videoWrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/D5lWLi_lBdA" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Reflection
 ***

@@ -93,17 +93,17 @@ Shape of each image:  (160, 320, 3)
 
 Here is a randomly selected image set. It shows all three images from left, center and right cameras.
 
-![Simulator output][image1]
+![Simulator output][image1]{: .post_img }
 
 It is also a good idea to visualize other driving data to understand what we are up against. So let's plot other data from the driving log:
 
-![Drive Data][image2]
+![Drive Data][image2]{: .post_img }
 
 Among all these 4 different data tags we are interested in the steering angle as it is going to be the parameter we will predict in this project. Throttle can also be important but we'll set it to some reasonable value during autonomous driving. 
 
 It looks like steering angle changes from -1 to +1 in the drive log. In the simulator steering angle is displayed at the upper left corner of the screen and it chanegs from -25 to +25 degrees so we now know that this data has already been normalized with the max possible value. Another intresting observation is that the steering data is usually small and negative. This is information is not surprising as the track is CCW and it only requires small adjustments in steering angle most of the time. This information is very critical in model training as we can guess that if we only use this data our predictions will be bias toward small negative numbers. Now let's look at how steering angle data is distributed using a histogram plot which further emphasizes this point. 
 
-![Steering angle histogram][image3]
+![Steering angle histogram][image3]{: .post_img }
 
 This table shows the functions I used in this part:
 
@@ -160,7 +160,7 @@ def adjust_brightness(img, bright_limit=(-0.5, 0.15)):
 
 A side by side comparison of a randomly selected image before and after brightness adjustment.
 
-![Brightness Adjustment][image4]
+![Brightness Adjustment][image4]{: .post_img }
 
 * Cropping
 
@@ -188,7 +188,7 @@ def crop_image(img, cut_info=(40, 25, 0, 0)):
 
 A side by side comparison of a randomly selected image before and after cropping.
 
-![Cropped Image][image5]
+![Cropped Image][image5]{: .post_img }
 
 * Resize Images
 
@@ -211,7 +211,7 @@ def resize_image(img, new_dim=(64, 64)):
 
 A side by side comparison of a randomly selected image before and after resizing.
 
-![Resized Image][image6]
+![Resized Image][image6]{: .post_img }
 
 * Flipping Images
 
@@ -235,7 +235,7 @@ def flip_image(img, steering_angle):
 
 A side by side comparison of a randomly selected image before and after flipping.
 
-![Flipped Image][image7]
+![Flipped Image][image7]{: .post_img }
 
 * Rotating Images
 
@@ -294,7 +294,7 @@ def rotate_image(img, steering_angle, rot_info=(10.0, 0.0)):
 
 A side by side comparison of a randomly selected image before and after rotating.
 
-![Rotated Image][image8]
+![Rotated Image][image8]{: .post_img }
 
 * Translating Images
 
@@ -323,7 +323,7 @@ def translate_image(img, steering_angle, trans_info=(40, 5)):
 
 A side by side comparison of a randomly selected image before and after translation.
 
-![Translated Image][image9]
+![Translated Image][image9]{: .post_img }
 
 * Using left and right camera images 
 
@@ -368,11 +368,11 @@ def get_weights(img_list):
 
 When weights are assigned, histogram of the steering angle improves as shown in the plot below. 
 
-![Histogram of steering data with weights][image10]
+![Histogram of steering data with weights][image10]{: .post_img }
 
 The final data submitted to the model for training looks like this:
 
-![Histogram of final training data][image11]
+![Histogram of final training data][image11]{: .post_img }
 
 There are three peaks in the histogram: -0.25, 0, +0.25. Two new peaks at -0.25 and 0.25 are due to using left and right images and correcting 0 degree images with 0.25 in the `Using left and right camera images` section above. 
 
@@ -433,7 +433,7 @@ I used  `TensorFlow` with `Keras` high level library which is easier to read and
 
 Here is a visualization of the architecture:
 
-![Model Architecture][image12]
+![Model Architecture][image12]{: .post_img }
 
 This model uses `Adam` optimizer so that learning rate is tuned automatically during the optimization process. I started with a learning rate of `0.0001`. Since this is a regression problem it employs `Mean Squared Error - MSE` as the loss function. 
 
