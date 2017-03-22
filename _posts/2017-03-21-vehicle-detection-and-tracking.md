@@ -425,7 +425,7 @@ Some example outputs are shown below. More examples are in the ipython notebook.
 
 ![Another Thresholded heatmap][image7]{: .post_img }
 
-The next step is to modify `process_image_four` pipeline function to store historical heatmaps for averaging. This way we could get more consitent bounding boxes for cars. We define two global variables (`global_heatmaps` list and `heatmap_sum`) and update these variables in the pipeline function `process_image_five`. We store last 6 heatmap images, sum them up and take the average to get smoother data. When we get a new heatmap we have to subtract the first heatmap so that we don't get a streak of heatmaps. When subtracting we might end up with negative values, therefore the `heatmap_sum` will be cliped to values between 0 and a large number. 
+The next step is to modify `process_image_four` pipeline function to store historical heatmaps for averaging. This way we could get more consitent bounding boxes for cars. We define two global variables (`global_heatmaps` list and `heatmap_sum`) and update these variables in the pipeline function `process_image_five`. We store last 8 heatmap images, sum them up and take the average to get smoother data. When we get a new heatmap we have to subtract the first heatmap so that we don't get a streak of heatmaps. When subtracting we might end up with negative values, therefore the `heatmap_sum` will be cliped to values between 0 and a large number. 
 
 ```python
 
@@ -452,7 +452,7 @@ def process_image_five(img):
     global_heatmaps.append(local_heatmap)
     heatmap_sum += local_heatmap
     
-    if len(global_heatmaps) > 6:
+    if len(global_heatmaps) > 8:
         oldest_heatmap = global_heatmaps.pop(0)
         heatmap_sum -= oldest_heatmap
         heatmap_sum = np.clip(heatmap_sum, 0.0, 1000000.0)
@@ -473,7 +473,7 @@ y_start_stop = [400, 656]  - region of interest for rows
 
 scales = [1.0, 1.5, 2.0] - three scales are used to find cars 
 
-threshold = 0.2 - small 
+threshold = 0.3 - small 
 
 
 Call the pipeline for small video clip
@@ -498,7 +498,7 @@ flib.process_video('project_video.mp4', 'project_out.mp4', process_image_five)
 
 <div class="post_videoWrapper">
     <!-- Copy & Pasted from YouTube -->
-    <iframe src="https://www.youtube.com/embed/aH75az8VE6w" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/uXlXqXk9j_g" frameborder="0" allowfullscreen></iframe>
 </div>
 
 
@@ -510,6 +510,6 @@ Feature extraction, SVM classifier with linear kernel and sliding window techniq
 
 * Identify each car and prevent car overlapping. This can be performed by keeping track of previous bounding boxes of individual cars and subtracting their moving averege from newly processed heatmaps. 
 * Model training: Obtain and use more data; with limited data detecting cars in the city could be challenging. One can try different model paramaters for the SVM and apply Cross Validation (CV). How about other classification techniques?
-* Fine tune start/stop positions (may not work at different slopes), scale and threshold values for other videos with different background (such as city). 
-* Combine vehicle detection with lane line detection so get warnings for forward collusion. 
+* Fine tune start/stop positions (may not work at different slopes), scale and threshold values for other videos with different background (such as city). One can split the image into sections where smaller objects are searched in distant locations and larger obects are searched otherwise. 
+* Combine vehicle detection with lane line detection so get warnings for proximity or forward collusion. 
 
