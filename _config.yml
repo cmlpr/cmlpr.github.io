@@ -44,7 +44,7 @@ excerpt_separator: <!--more-->
 # Jekyll will write blog/index.html with the first 5 posts, 
 # blog/page2/index.html with the next 5 posts and 
 # blog/page3/index.html with the last 2 posts into the destination directory.
-paginate: 5
+paginate: 10
 paginate_path: "/blog/page:num/"
 
 categories_path : /blog/categories.html
