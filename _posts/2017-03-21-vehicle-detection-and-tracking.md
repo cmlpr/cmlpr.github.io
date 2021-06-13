@@ -9,7 +9,7 @@ imagealt: "Vehicle Detection"
 description: "Detect and track cars on video streams using techniques like HOG (Histogram of Oriented Gradients) feature extraction and SVM classifier."
 category: Image Processing
 tags: image_processing self_driving_cars cars histogram_of_oriented_gradients HOG support_vector_machines svm sliding_window_search vehicle_detection_and_tracking python opencv matplotlib
-published: true
+published: false
 comments: true
 ---
 
