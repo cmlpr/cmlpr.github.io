@@ -9,7 +9,7 @@ imagealt: "Behavioral Cloning"
 description: "Using a simulator and Convolutional Neural Network (CNN) model to predict steering angles for Self Driving Cars "
 category: Neural Networks
 tags: behavioral_cloning tensorflow keras neural_networks deep_neural_networks convolutional_neural_networks python opencv image_processing self_driving_cars matplotlib sklearn generators
-published: true
+published: false
 comments: true
 ---
 
