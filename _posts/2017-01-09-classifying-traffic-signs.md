@@ -9,7 +9,7 @@ imagealt: "Traffic Sign Classification"
 description: "Building a Convolutional Neural Network (CNN) model to classify traffic signs"
 category: Neural Networks
 tags: tensorflow neural_networks deep_neural_networks convolutional_neural_networks python opencv image_processing self_driving_cars matplotlib sklearn
-published: true
+published: false
 comments: true
 ---
 
