@@ -9,7 +9,7 @@ imagealt: "hello github"
 description: "Steps I followed to build my personal webpage"
 category: website
 tags: cmlpr bootstrap jekyll disqus github python pygments css mathjax
-published: true
+published: false
 comments: true
 ---
 
