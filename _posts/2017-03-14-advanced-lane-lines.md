@@ -9,7 +9,7 @@ imagealt: "Detecting Lane Lines"
 description: "Detecting lane lines on the road using image filtering, perspective transform and sliding window search."
 category: Image Processing
 tags: python opencv image_processing self_driving_cars matplotlib sobel_operator convolution perspective_transform camera_calibration
-published: true
+published: false
 comments: true
 ---
 
