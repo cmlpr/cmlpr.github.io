@@ -9,7 +9,7 @@ imagealt: "Lane Line Detection"
 description: "Image processing with OpenCV and Python to find lane lines on the road"
 category: Image Processing
 tags: python opencv moviepy image_processing udacity sdcnd cars
-published: true
+published: false
 comments: true
 ---
 
